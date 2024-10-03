@@ -7,7 +7,9 @@ scanf("%d",&n);
 int a[m][n];
 for(i=0;i<m;i++)
   for(j=0;j<n;j++)
+    {printf("plesae input the elements for the martix");
 scanf("%d",&a[i][j]);
+    }
 printf("Please input target");
 scanf("%d",&target);
 for(i=0;i<m;i++)
